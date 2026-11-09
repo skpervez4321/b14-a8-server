@@ -1,6 +1,7 @@
-import "dotenv/config";
-import { MongoClient } from "mongodb";
-import { createApp } from "./src/create-app.js"
+   import "dotenv/config";
+   import express from "express"; // Vercel needs ...
+   import { MongoClient } from "mongodb";
+   import { createApp } from "./src/create-app.js";
 import { createAuth } from "./src/auth.js";
 
 const authUrl = process.env.AUTH_URL;
