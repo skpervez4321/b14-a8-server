@@ -2,8 +2,8 @@
 
 The API for the Seba Shongi community service event platform. Built with Express and MongoDB. Private routes accept only a valid JWT issued by the client website (BetterAuth jwt plugin), checked against the client's public keys at `/api/auth/jwks`.
 
-- Client repo: add the client repo link here
-- Live API: add your live server link here
+- Client repo: https://github.com/skpervez4321/b14-a8-client
+- Live API: https://b14-a8-server-neon.vercel.app
 
 ## Routes
 
